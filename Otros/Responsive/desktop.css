@@ -1,0 +1,27 @@
+@media (min-width: 800px) {
+  .nav {
+    display: flex;
+  }
+  .logo {
+    width: auto;
+  }
+  .menu {
+    align-items: center;
+    margin-left: 850px;
+  }
+  .section {
+    display: flex;
+    height: 530px;
+    align-items: center;
+  }
+  .section .perfil {
+    margin: 50px;
+  }
+  .stadistic {
+    max-width: 40%;
+    margin: 30px;
+  }
+  .footer {
+    top: 583px;
+  }
+}

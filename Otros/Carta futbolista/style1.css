@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Patua One", cursive;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.card-logo,
+.card-container,
+.card-name {
+  position: relative;
+  background-image: linear-gradient(140deg, #720918, #900e1d, #000);
+  box-shadow: 0px 0px 40px 5px rgba(35, 4, 7, 1);
+}
+
+.card-logo {
+  width: 260px;
+  height: 40px;
+  position: relative;
+  left: -145px;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.logo {
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  background-image: linear-gradient(140deg, #720918, #900e1d, #000);
+  border-radius: 50%;
+}
+.logo img {
+  width: 85px;
+}
+.club-name {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.card-container {
+  width: 420px;
+  min-height: 500px;
+}
+
+.img-uno {
+  position: absolute;
+  bottom: 30px;
+  right: 30;
+  z-index: 3;
+}
+.img-uno img {
+  position: absolute;
+  top: -510px;
+  left: -30px;
+  width: 510px;
+  height: 530px;
+}
+.shirt-number {
+  display: inline-block;
+  font-family: "Patua One", cursive;
+  font-family: "Roboto", sans-serif;
+  font-size: 250px;
+  padding: 10px 0 0 13px;
+  color: rgb(255, 255, 255);
+}
+.firm {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  bottom: 90px;
+  rotate: -20deg;
+  z-index: 3;
+}
+.firm,
+.img-firm {
+  width: 140px;
+}
+
+.card-name {
+  width: 70px;
+  height: 550px;
+  position: absolute;
+  right: -25px;
+  top: -35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+.name-1 {
+  font-family: "Patua One", cursive;
+  font-size: 58px;
+  color: #fff;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+}
+
+.descriptive-text {
+  font-family: "Patua One", cursive;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 45px;
+  background-image: linear-gradient(140deg, #720918, #900e1d, #000);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px -2px 9px 0px rgba(20, 2, 4, 1);
+  z-index: 6;
+}
+.descriptive-text p {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}

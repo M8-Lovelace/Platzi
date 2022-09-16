@@ -1,0 +1,8 @@
+@media (min-width: 600px) {
+  .followed {
+    width: 42%;
+  }
+  .follower {
+    width: 42%;
+  }
+}

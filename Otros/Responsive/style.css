@@ -1,0 +1,136 @@
+* {
+  background-color: rgb(245, 243, 243);
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  position: relative;
+}
+
+.nav {
+  width: auto;
+  height: auto;
+  background-color: black;
+}
+.logo {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.logo img {
+  background-color: black;
+  width: 130px;
+  height: 50px;
+}
+.menu {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+.clase,
+.blog,
+.foro,
+.agenda {
+  background-color: black;
+  color: white;
+  display: inline;
+  align-items: center;
+  margin: 5px 15px 10px 15px;
+  justify-content: center;
+}
+.section .perfil {
+  text-align: center;
+  margin: 20px;
+}
+.perfil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: black;
+}
+.perfil a {
+  color: rgb(48, 155, 174);
+  font-weight: bold;
+}
+.name {
+  text-align: center;
+  margin: 5px 0 15px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.description {
+  text-align: center;
+  margin: 5px 5px 25px 5px;
+}
+.instagram {
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+.me {
+  text-align: center;
+}
+.me img {
+  width: 40px;
+  height: 40px;
+}
+.me a {
+  color: rgb(48, 155, 174);
+  list-style: none;
+}
+
+.stadistic {
+  width: 70%;
+  height: auto;
+  margin: 15px auto;
+  border-radius: 10px;
+  background-color: rgb(255, 254, 254);
+}
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+.followed {
+  width: 38.5%;
+  margin: 15px;
+  background-color: transparent;
+  text-align: center;
+}
+.followed spam {
+  color: rgb(48, 155, 174);
+  font-weight: bold;
+}
+.follower {
+  margin: 15px;
+  background-color: transparent;
+  text-align: center;
+  width: 38.5%;
+}
+.follower spam {
+  color: rgb(48, 155, 174);
+  font-weight: bold;
+}
+.public {
+  margin: 15px;
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+}
+.public spam {
+  color: rgb(48, 155, 174);
+  font-weight: bold;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  top: 642px;
+}
+.made p {
+  background-color: rgb(0, 0, 0);
+  height: 25px;
+  color: white;
+  text-align: center;
+}
