@@ -1,0 +1,32 @@
+.container{
+  border: 5px solid #359011;
+  background-color: whitesmoke;
+  display:grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-auto-columns: 150px;
+  grid-auto-flow: column;
+  gap: 20px;
+  background-color: azure;
+  padding: 10px;
+}
+
+.item {
+  font-size: 30px;
+  background-color: #b2fc28;
+  display: grid;
+  justify-items: end;
+  align-items: end;
+}
+.item:nth-child(2),
+.item:nth-child(5) {
+    background-color: #5ab507;
+}
+.item:nth-child(3),
+.item:nth-child(6) {
+    background-color: #327700;
+}
+span {
+  background-color: #1c4200;
+  color: white;
+  padding: 1px 5px;
+}
