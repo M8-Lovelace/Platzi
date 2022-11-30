@@ -7,12 +7,17 @@
   font-family: 'Roboto mono', monospace;
 }
 
+/* index.html */
+
 body{
-  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.body-one{
+  position: fixed;
 }
 
 a{
@@ -122,4 +127,104 @@ nav .profile-link a:hover{
   background-color: #47cfac;
   color: white;
   cursor: pointer;
+}
+
+
+/*  Blogs.html */
+
+.body-two{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.blogs-news-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  padding: 20px 80px;
+  background-color: rgb(251, 243, 231);
+}
+
+.blogs-main-new h3{
+  padding-bottom: 10px;
+}
+
+.blogs-news-img-container img{
+  width: 100%;
+  height: 300px;
+}
+
+.blogs-news-info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.blogs-news-info-container p{
+  padding: 20px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.blogs-button{
+  border:1px solid #47cfac;
+  color: #47cfac;
+  width: 100px;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.blogs-button:hover{
+  background-color: #47cfac;
+  color: white;
+}
+
+.blogs-posts-container{
+  padding-bottom: 25px;
+}
+
+.blogs-posts-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 0;
+  grid-gap: 30px 20px;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.blogs-post-titles{
+  text-align: center;
+  padding: 20px;
+}
+
+.post-container img{
+  width: 100%;
+}
+
+.blogs-post-title{
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.blogs-post-text{
+  padding: 0 0 20px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer{
+  background-color: #47cfac;
+  padding: 10px 0;
+  font-size: 10px;
+  text-align: center;
 }
