@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto mono', monospace;
+}
+
+body{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+a{
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+
+header{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 75px;
+}
+
+header .header-icons-container{
+  width: 100%;
+  display: grid;
+  background-color: #47cfac;
+  padding: 5px;
+}
+
+header .header-icons-container .icons{
+  width: 180px;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: end;
+  margin-right: 40px;
+}
+
+header .icons span{
+  color: white;
+  font-size: 5px !important;
+}
+
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 5px;
+}
+
+nav .nav-logo-container{
+  margin-left: 20px;
+}
+
+nav .nav-logo-container img{
+  width: 120px;
+  padding-top: 2px;
+}
+
+nav .profile-link{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+
+nav .profile-link a{
+  color: black;
+  border-bottom: 1px solid black;
+  font-size: 10px;
+}
+
+nav .profile-link a:hover{
+  color: #47cfac;
+  border-bottom: 1px solid #47cfac;
+}
+
+.sec-container{
+  background-image: url(../../assets/img/Cover.png);
+  background-size: cover;
+  height: 100%;
+}
+
+.sec-items-container{
+  padding-top: 100px;
+  color: white;
+  height: 60%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr;
+  justify-items: center;
+  align-items: center;
+  font-weight: 700px;
+  letter-spacing: 3px;
+}
+
+.sec-items-text{
+  text-align: center;
+}
+
+.sec-items-button{
+  background-color: #47cfac;
+  display: flex;
+  border: 0;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.sec-items-button:hover{
+  background-color: #47cfac;
+  color: white;
+  cursor: pointer;
+}
